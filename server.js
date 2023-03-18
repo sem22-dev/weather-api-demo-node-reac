@@ -26,7 +26,7 @@ app.post('/weather', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('I am running lol!');
 });
 
 app.listen(8080, () => {
